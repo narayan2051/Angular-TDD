@@ -1,0 +1,18 @@
+<div class="dialog-container">
+  <div data-test="title"  mat-dialog-title class="title">
+    <p>Book {{ data.home.title }}</p>
+  </div>
+  <div data-test="price" class="uk-margin"><span class="uk-text-large uk-text-bold uk-text-primary">{{ data.home.price | currency }}</span> per night</div>
+  <div data-test="checkin" class="date">
+    <p>checkin date: <input type="date" [(ngModel)]="checkIn" /></p>
+  </div>
+  <div data-test="checkout" class="date">
+    <p>checkout date: <input type="date" [(ngModel)]="checkOut" /></p>
+  </div>
+  <div data-test="total" class="total">
+    Total {{ calculateTotal(checkIn, checkOut) | currency }}
+  </div>
+  <div data-test="book-btn" class="book-btn">
+    <button class="uk-button uk-button-primary align-center" (click)="bookHome()">Book now</button>
+  </div>
+</div>

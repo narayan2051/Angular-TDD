@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Home 1",
+    "image": "https://images.unsplash.com/photo-1549517045-bc93de075e53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80",
+    "location": " New York",
+    "price": 300
+  },
+  {
+    "title": "Home 2",
+    "image": "https://images.unsplash.com/photo-1549517045-bc93de075e53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80",
+    "location": " Bostan",
+    "price": 320
+  },
+  {
+    "title": "Home 3",
+    "image": "https://images.unsplash.com/photo-1549517045-bc93de075e53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80",
+    "location": "Chicago",
+    "price": 400
+  },
+  {
+    "title": "Home 4",
+    "image": "https://images.unsplash.com/photo-1549517045-bc93de075e53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80",
+    "location": "Fairfield",
+    "price": 225
+  }
+]
